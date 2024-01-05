@@ -1,3 +1,62 @@
 body {
     margin: 0;
+    font-family: Inter, sans-serif;
+    background: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #6943FF;
+  color: white;
+  width: 100%;
+  height: 220px;
+  padding-top: 33px;
+  font-size: 14px;
+}
+
+.header > input {
+  margin: 15px auto;
+  width: 88px;
+  height: 62px;
+  text-align: center;
+  font-size: 34px;
+  border-radius: 5px;
+  border: 2px solid #B295FF;
+  color: white;
+  background: #6943FF;
+}
+
+input::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+.header > button {
+  padding: 8px 18px;
+  border: #6943FF;
+  border-radius: 5px;
+  background-color: white;
+  color: #6943FF;
+}
+
+.container {
+  margin: 15px 20px;
+  background: white;
+  width: 90%;
+  text-align: center;
+  color: #5A537B;
+}
+
+.container > h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.container > p {
+  color: black;
 }
